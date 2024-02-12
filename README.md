@@ -26,14 +26,24 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Step 5: Join Client-1 to your domain (mydomain.com)
 - Step 6: Setup Remote Desktop for non -administrative users on Clients-1
 - Step 7: Create a bunch of additional users and attempt to log into client-1 with one of the users
-- Step 8: Finish. 
+- Step 8: Finish.
 
 <h2>Deployment and Configuration Steps</h2>
 
 
-First, create a Domain Controller VM (Windows Server 2022) named "DC-1," noting the Resource Group and Virtual Network created. Set the Domain Controller's NIC Private IP address to static. Next, create a Client VM (Windows 10) named "Client-1" using the same Resource Group and Vnet from Step 1, ensuring both VMs are in the same Vnet, and verify the topology using Network Watcher.
+To begin, create a Domain Controller VM (Windows Server 2022) named "DC-1," noting the Resource Group and Virtual Network created. Set the Domain Controller's NIC Private IP address to static.
 
-![image](https://github.com/Tstewart2408/Configure-Ad/assets/158493074/e3912d89-f028-4f8a-a0a6-891175232f77)
+
+
+Next, create a Client VM (Windows 10) named "Client-1" using the same Resource Group and Vnet from Step 1, ensuring both VMs are in the same Vnet, and verify the topology using Network Watcher.
+
+
+
+Set the Domain Controller's NIC Private IP address to static.
+
+
+
+
 
 
 
