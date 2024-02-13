@@ -96,6 +96,27 @@ Now lets create a new employee named “Jane Doe” (same password) with the use
 
 <h2>Join Client-1 to your domain (kobeb.com)</h2>
 
+From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address. From the Azure Portal, restart Client-1. Login to Client-1 (Remote Desktop) as the original local admin (Tstew5108) and join it to the domain (computer will restart)
+
+![image](https://github.com/Tstewart2408/Configure-Ad/assets/158493074/6ea1e3b2-c2c2-4b66-bc7c-a4e0c13fd27a)
+
+![image](https://github.com/Tstewart2408/Configure-Ad/assets/158493074/2f1985cb-d5e1-4223-a28d-2249b5c2f2f8)
+
+Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain
+
+![image](https://github.com/Tstewart2408/Configure-Ad/assets/158493074/96dd5ff4-8fd1-4477-bf44-205bc029219e)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
