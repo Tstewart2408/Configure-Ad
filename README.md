@@ -106,6 +106,34 @@ Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in 
 
 ![image](https://github.com/Tstewart2408/Configure-Ad/assets/158493074/96dd5ff4-8fd1-4477-bf44-205bc029219e)
 
+Log into Client-1 as kobeb.com.com\jane_admin and open system properties, click “Remote Desktop”, allow “domain users” access to remote desktop, and you can now log into Client-1 as a normal, non-administrative user now
+
+![image](https://github.com/Tstewart2408/Configure-Ad/assets/158493074/b92cf831-5926-4135-9834-d266654cd67b)
+
+![image](https://github.com/Tstewart2408/Configure-Ad/assets/158493074/9f045094-878b-4709-aaf4-0c514fb4fe0d)
+
+Login to DC-1 as jane_admin, open PowerShell_ise as an administrator, create a new file and paste the contents of the script into it (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1), and run the script and observe the accounts being created. 
+
+![image](https://github.com/Tstewart2408/Configure-Ad/assets/158493074/c1fe9ec0-eeee-43d4-a275-a73a1486e325)
+
+![image](https://github.com/Tstewart2408/Configure-Ad/assets/158493074/0089f256-4e11-4098-b90c-98757a85a8f7)
+
+Last we will attempt to log into Client-1 with one the account "baho.xuled". 
+
+![image](https://github.com/Tstewart2408/Configure-Ad/assets/158493074/4692e95e-e786-490e-9c8b-86b21b121935)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
